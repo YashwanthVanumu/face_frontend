@@ -1,0 +1,45 @@
+<!-- <p>welcome-employee works!</p> -->
+
+<body>
+    <nav>
+      <div class="nav-left">
+        <!-- <img [src]="image" alt="Logo" class="logo2"> -->
+    </div>
+    <ul>
+      <li><a  (click)="showNotification()"><img [src]="boy_icon" alt="Photo Icon" class="nav-icon">
+        </a></li>
+       
+      
+      
+      <!-- <li><a routerLink="/login">Logout</a></li> -->
+    </ul>
+  </nav>
+      <div class="admin-container" id="admin-details">
+    
+        <p id="adminname">Employee</p>
+      <p id="adminemail">Employee@gmail.com</p>
+      <p id="adminemail">ID: 23456789</p>
+
+    
+    <span class="Logout" (click)="onsave3()">Logout</span>
+        
+        <!-- <span class="close-button" (click)="hideNotification()">✖</span> -->
+      </div>
+      
+
+    <div class="employee-container">
+        <h2>Welcome, Juhi Singh!</h2>
+        
+
+        <div class="options">
+            <a href="/attendance-calendar">View Attendance</a>
+            <!-- <a (click)="showadmindetails()">Mark Leave</a> -->
+            <a href="/pick-date">Mark Leave</a>
+            <a href="regularize-attendance">Regularize Attendance</a>
+        </div>
+        
+    </div>
+
+   
+
+</body>
